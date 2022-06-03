@@ -5,7 +5,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 #nav{
-    background: linear-gradient(145deg , #FF0000 , #CC0000,#b3a125, blue );
+    background: linear-gradient(145deg , #FF0000 , blue );
     height: 100px;
     align-items: center;
     justify-content: center;
@@ -34,9 +34,6 @@
 }
 
 #card{
-    background: radial-gradient(
-        circle at 50% 0%, lightblue 36% , #ffff 36%
-    );
     width: 100%;
     padding: 30px 20px;
     box-shadow: 0 20px 30px rgba(0,0,0,0.15);
@@ -99,4 +96,5 @@
     margin: auto;
     margin-top: 20px;
     cursor: pointer;
+    
 }
