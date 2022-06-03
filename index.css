@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+#nav{
+    background: linear-gradient(145deg , #FF0000 , #CC0000,#b3a125, blue );
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 601px) {
+    #nav{
+      display: none;
+    }
+  }
+#nav h1{
+    font-weight: 800;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.container{
+    width: 350px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+}
+
+#card{
+    background: radial-gradient(
+        circle at 50% 0%, lightblue 36% , #ffff 36%
+    );
+    width: 100%;
+    padding: 30px 20px;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+    border-radius: 8px;
+    
+}
+
+#card img{
+    display: block;
+    width: 180px;
+    max-height: 200px;
+    position: relative;
+    margin: 20px auto;
+
+}
+
+.hp{
+    width: 80px;
+    background-color: #ffff;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 30px;
+    margin-left: auto;
+    font-weight: 600;
+}
+
+.pokemon-name{
+    text-align: center;
+    font-weight: 800;
+}
+#types{
+    justify-content: space-around;
+    display: flex;
+    margin: 20px 40px 0;
+}
+.hp span,
+#types span{
+    font-size: 15px;
+    letter-spacing: .4px;
+    font-weight: 600;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px;
+}
+.stats p{
+    color: blueviolet;
+}
+#btn{
+    display: block;
+    padding: 15px 60px;
+    font-size: 20px;
+    color: whitesmoke;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
