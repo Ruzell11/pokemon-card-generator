@@ -4,21 +4,39 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
-#nav{
+#nav {
     background: linear-gradient(145deg , #FF0000 , blue );
     height: 100px;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
     display: flex;
+    align-items: center;
+   
     
 }
+#nav img{
 
-@media only screen and (max-width: 601px) {
-    #nav{
-      display: none;
-    }
-  }
+    margin: 20px;
+    cursor: pointer;
+   
+}
+#nav a{
+   
+    height: 100px;
+   text-align: center;
+   margin: auto;
+    
+}
+#nav a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+#nav a:hover{
+    color: black;
+    transition: .2s ease;
+}
+
 #nav h1{
     font-weight: 800;
     font-size: 50px;
